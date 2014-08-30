@@ -2,7 +2,7 @@
 config_file = Rails.root.join('config', 'resque.yml')
 
 resque_url = if File.exists?(config_file)
-               YAML.load_file(config_file)[Rails.env]
+		YAML.load(ERB.new(File.read(config_file)).result)[Rails.env]
              else
                "redis://localhost:6379"
              end

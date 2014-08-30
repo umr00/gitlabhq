@@ -8,6 +8,8 @@ def linux_only(require_as)
   RUBY_PLATFORM.include?('linux') && require_as
 end
 
+#gem "charlock_holmes", :github => "brianmario/charlock_holmes"
+
 gem "rails", "~> 4.1.0"
 
 # Make links from text
