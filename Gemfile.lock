@@ -1,3 +1,9 @@
+GIT
+  remote: gitr://github.com/brianmario/charlock_holmes.git
+  revision: dde194609b3513b0d2369ce8f916ae52566154b4
+  specs:
+    charlock_holmes (0.6.9.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -61,7 +67,6 @@ GEM
       json (>= 1.7)
     celluloid (0.15.2)
       timers (~> 1.1.0)
-    charlock_holmes (0.6.9.4) 
     cliver (0.3.2)
     code_analyzer (0.4.3)
       sexp_processor
@@ -583,6 +588,7 @@ DEPENDENCIES
   coffee-rails
   colored
   coveralls
+  charlock_holmes!
   d3_rails (~> 3.1.4)
   database_cleaner
   default_value_for (~> 3.0.0)
