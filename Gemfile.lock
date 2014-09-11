@@ -1,5 +1,5 @@
 GIT
-  remote: gitr://github.com/brianmario/charlock_holmes.git
+  remote: git://github.com/brianmario/charlock_holmes.git
   revision: dde194609b3513b0d2369ce8f916ae52566154b4
   specs:
     charlock_holmes (0.6.9.4)
